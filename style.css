@@ -45,7 +45,6 @@ body{
     height: 40vh;
     margin: 5vh auto;
     text-align: center;
-    padding: 5% 5%;
     background: rgb(254,206,10);
     background: linear-gradient(90deg, rgba(253, 241, 180, 0.848) 2%, rgb(255, 229, 126) 35%, rgba(255, 240, 164, 0.853) 93%);
     border-radius: 5px;
@@ -79,7 +78,7 @@ body{
 .author{
     margin: auto;
     height: 5vh;
-    width: 25vw;
+    width: 44vw;
 }
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
@@ -95,6 +94,9 @@ body{
     }
     .quote{
         width: 60vw;
+    }
+    .author{
+        width: 65vw;
     }
     .btn{
         width: 25vw;
@@ -120,11 +122,16 @@ body{
         width: 70vw;
     }
     .author{
-        width: 50vw;
+        width: 65vw;
     }
     .btn{
         width: 60vw;
         height: 10vh;
         margin-top: 20%;
+    }
+}
+@media screen and (min-width : 769px) and (max-width: 803px){
+    h1{
+        font-size: 2.2rem;
     }
 }
