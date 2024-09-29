@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+    font-family: "Playwrite DE Grund", cursive;
+}
+
+body{
+    background-color: rgb(254,206,10);
+    font-size: 1.3rem;
+    font-weight: bold;
+    background-image: url(./img/flower3.png);
+    background-size: 50px;
+    background-blend-mode: soft-light;
+    background-repeat: space;
+}
+
+.main{
+    /* border: 1px solid black; */
+    width: 95vw;
+    height: 90vh;
+    margin: 5vh auto;
+    padding: 2.5vw 5vh;
+}
+
+.inner{
+    position: relative;
+    border: 1px solid black;
+    width: 60vw;
+    height: 80vh;
+    margin:auto;
+    background-color: rgba(255, 254, 249, 0.826);
+    /* box-shadow: 1px 1px 1px black; */
+    border-radius: 5px;
+    background-image: url(./img/flower2.png);
+    background-repeat: no-repeat;
+    background-size: 15vw;
+    background-position: -1% 101%;
+}
+
+.input{
+    border: black 1px solid;
+    width: 50vw;
+    height: 40vh;
+    margin: 5vh auto;
+    text-align: center;
+    padding: 5% 5%;
+    background: rgb(254,206,10);
+    background: linear-gradient(90deg, rgba(253, 241, 180, 0.848) 2%, rgb(255, 229, 126) 35%, rgba(255, 240, 164, 0.853) 93%);
+    border-radius: 5px;
+    
+}
+
+.btn{
+    color: rgb(252, 220, 92);
+    border: 1px black solid;
+    background-color: rgba(0, 0, 0, 0.841);
+    width: 12vw;
+    height: 9vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.btn:hover{
+    box-shadow: 1px 1px 1px rgb(116, 112, 1);
+}
+
+.quote{
+    margin: auto;
+    padding-top: 5%;
+    height: 28vh;
+    width: 44vw;
+}
+
+.author{
+    margin: auto;
+    height: 5vh;
+    width: 25vw;
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .inner{
+        width: 80vw;
+        height: 90vh;
+        font-size: 1.1rem;
+        background-size: 35vw;
+    }
+    .input{
+        width: 70vw;
+        height: 40vh;
+    }
+    .quote{
+        width: 60vw;
+    }
+    .btn{
+        width: 25vw;
+        height: 10vh;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .main{
+        padding: 0;
+    }
+    .inner{
+        width: 90vw;
+        height: 90vh;
+        font-size: 1.08rem;
+        background-size: 45vw;
+    }
+    .input{
+        width: 80vw;
+        height: 40vh;
+    }
+    .quote{
+        width: 70vw;
+    }
+    .author{
+        width: 50vw;
+    }
+    .btn{
+        width: 60vw;
+        height: 10vh;
+        margin-top: 20%;
+    }
+}

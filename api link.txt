@@ -1,0 +1,3 @@
+const url = "https://api.quotable.io/random";
+
+This link is down as of now, will be using this link in the future.
