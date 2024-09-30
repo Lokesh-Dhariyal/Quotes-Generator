@@ -71,7 +71,7 @@ body{
 .quote{
     margin: auto;
     padding-top: 5%;
-    height: 28vh;
+    height: 34vh;
     width: 44vw;
 }
 
@@ -84,16 +84,17 @@ body{
 @media screen and (min-width: 481px) and (max-width: 768px) {
     .inner{
         width: 80vw;
-        height: 90vh;
+        height: 600px;
         font-size: 1.1rem;
         background-size: 35vw;
     }
     .input{
         width: 70vw;
-        height: 40vh;
+        height: 300px;
     }
     .quote{
         width: 60vw;
+        height: 265px;
     }
     .author{
         width: 65vw;
@@ -110,16 +111,17 @@ body{
     }
     .inner{
         width: 90vw;
-        height: 90vh;
-        font-size: 1.08rem;
+        height: 600px;
+        font-size: .9rem;
         background-size: 45vw;
     }
     .input{
         width: 80vw;
-        height: 40vh;
+        height: 250px;
     }
     .quote{
         width: 70vw;
+        height: 215px;
     }
     .author{
         width: 65vw;

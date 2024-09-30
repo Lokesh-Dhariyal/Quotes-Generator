@@ -9,7 +9,7 @@ let response = () => {
         return data.json();
     })
     .then((info) => {
-      input.innerText = `"${info[0].quote}"`;
+      input.innerText = `" ${info[0].quote} "`;
       auth.innerText = `- ${info[0].author}`;
     })
     .catch((error) => {
