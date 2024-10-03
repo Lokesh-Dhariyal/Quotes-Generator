@@ -1,7 +1,7 @@
 const input = document.querySelector(".quote");
 const auth = document.querySelector(".author")
 const btn = document.querySelector(".btn");
-const url = "https://api.breakingbadquotes.xyz/v1/quotes";
+const url = "https://johndturn-quotableapiproxy.web.val.run/";
 
 let response = () => {
   fetch(url)
@@ -9,7 +9,7 @@ let response = () => {
         return data.json();
     })
     .then((info) => {
-      input.innerText = `" ${info[0].quote} "`;
+      input.innerText = `" ${info[0].content} "`;
       auth.innerText = `- ${info[0].author}`;
     })
     .catch((error) => {
